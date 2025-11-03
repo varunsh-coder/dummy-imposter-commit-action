@@ -1,0 +1,9 @@
+name: Dummy Imposter Commit Action
+description: A harmless GitHub Action designed to test detection of actions with imposter commit.
+author: StepSecurity
+runs:
+  using: "composite"
+  steps:
+    - name: Print test message
+      run: echo "A harmless GitHub Action designed to test detection of actions with imposter commit."
+      shell: bash
